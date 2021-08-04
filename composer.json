@@ -1,0 +1,26 @@
+{
+  "name": "greenpeace/planet4-child-theme-history-aotearoa",
+  "description": "Child theme for the Planet 4 Aotearoa History",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "license": "GPL-3.0-or-later",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/greenpeace/planet4-child-theme-history-aotearoa"
+  },
+  "extra": {
+    "installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "require": {
+  }
+}

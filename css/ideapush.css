@@ -1,0 +1,77 @@
+/*
+IdeaPush related changes
+Add font family to anything that uses FontAwsome to avoid conflict with FAv5 that we use
+Fix issuses with ideas presentation
+Change the place where the author appears
+*/
+.fa-thumbs-o-up::before {
+    font-family: FontAwesome;
+}
+
+.fa-comment-o::before {
+    font-family: FontAwesome;
+}
+
+.ideapush-container i {
+    font-family: FontAwesome;
+}
+
+footer.author-block {
+    clear: both;
+}
+
+.single-idea .page-header .single-post-meta span.comment-link img {
+    width: 14px;
+    margin-right: 3px;
+}
+
+ul.dynamic-idea-listing {
+    list-style: none;
+}
+
+ul.dynamic-idea-listing li {
+    margin-bottom: 20px;
+}
+
+ul.dynamic-idea-listing li::after {
+    /* Injecting clearfix technique */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ideapush-container-form .ideapush-form-custom-field input[type="radio"] {
+    margin-right: 10px;
+    display: inline-block;
+    width: auto;
+    opacity: 1;
+    position: relative;
+}
+
+@media (max-width: 576px) {
+    .alertify .dialog>* {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .alertify .dialog>* {
+        width: 576px;
+    }
+}
+
+@media (min-width: 992px) {
+    .alertify .dialog>* {
+        width: 768px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .alertify .dialog>* {
+        width: 900px;
+    }
+}
+
+.msg img {
+    max-width: 100%;
+}

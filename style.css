@@ -1,0 +1,37 @@
+/*
+Theme Name: Greenpeace Planet 4 Aotearoa History Theme
+Theme URI: https://github.com/greenpeace/planet4-child-theme-history-aotearoa
+Description: Child theme for the Planet 4 Aotearoa
+Author: Greenpeace Aotearoa
+Author URI: https://github.com/greenpeace
+Template: planet4-master-theme
+Version: 0.0.16
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: light, accessibility-ready
+Text Domain: planet4-child-theme-history-aotearoa
+*/
+
+@import 'css/variables.css';
+@import 'css/navigation.css';
+@import 'css/footer.css';
+@import 'css/ideapush.css';
+@import 'css/author.css';
+
+@media (min-width: 992px) {
+  body {
+    padding-left: var(--sidebar-width);
+  }
+}
+
+div.page-template {
+  font-family: Lora, serif;
+}
+
+div.page-header {
+  padding-top: 104px;
+}
+
+h1, h2, h3, h4, h5, h6.page-template {
+  font-family: Roboto, sans-serif;
+}
