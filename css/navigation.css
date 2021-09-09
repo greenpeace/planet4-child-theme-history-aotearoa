@@ -69,7 +69,7 @@
 
   .nav-search-wrap .form-control,
   .nav-search-wrap .form-control:focus {
-    background-color: var(--sidebar-blue);
+    background-color: var(--white);
     color: var(--white);
     border: none;
   }
