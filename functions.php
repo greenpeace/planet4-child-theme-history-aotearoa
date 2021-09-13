@@ -84,3 +84,9 @@ function set_child_theme_allowed_block_types( $allowed_block_types, $post ) {
 }
 
 add_filter( 'allowed_block_types', 'set_child_theme_allowed_block_types', 15, 2 );
+
+
+function register_my_menu() {
+register_nav_menu('top-bar-menu',__( 'Top Bar Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
