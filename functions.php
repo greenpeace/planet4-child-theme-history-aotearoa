@@ -85,8 +85,10 @@ function set_child_theme_allowed_block_types( $allowed_block_types, $post ) {
 
 add_filter( 'allowed_block_types', 'set_child_theme_allowed_block_types', 15, 2 );
 
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
 
-function register_my_menu() {
-register_nav_menu('top-bar-menu',__( 'Top Bar Menu' ));
+    $items .= '<li><a href="https://www.greenpeace.org/aotearoa/act/donate/">Donate</a></li>';
+    return $items;
+	
 }
-add_action( 'init', 'register_my_menu' );
