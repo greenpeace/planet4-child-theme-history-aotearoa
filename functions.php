@@ -87,7 +87,7 @@ add_filter( 'allowed_block_types', 'set_child_theme_allowed_block_types', 15, 2 
 
 add_filter( 'wp_nav_menu_items', 'add_extra_items_to_nav_menu', 10, 2 );
 function add_extra_items_to_nav_menu( $items, $args ) {
-	if( $args->theme_location == 'primary' ){
+	if( $args->theme_location == 'navigation-bar-menu' ){
 		$items .= '<li class="nav-item donate-nav-item">';
 		$items .= '<a class="btn btn-donate btn-enhanced-donate" href="https://www.greenpeace.org/aotearoa/act/donate/" data-ga-category="Menu Navigation" data-ga-action="Donate" data-ga-label="Homepage">Donate Now</a>';
 		$items .= '</li>';
