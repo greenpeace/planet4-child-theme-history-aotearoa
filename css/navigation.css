@@ -2,6 +2,13 @@
   display: none;
 }
 
+ul.history-nav-links {
+  text-transform: uppercase;
+}
+.history-nav-links li .nav-link {
+  font-weight: 400;
+}
+
 @media (min-width: 992px) {
   .top-navigation {
     background: rgba(01, 34, 61, 0.6);
