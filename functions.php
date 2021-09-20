@@ -84,9 +84,3 @@ function set_child_theme_allowed_block_types( $allowed_block_types, $post ) {
 }
 
 add_filter( 'allowed_block_types', 'set_child_theme_allowed_block_types', 15, 2 );
-
-
-add_action( 'wp_head', 'remove_my_action' );
-function remove_my_action() {
-    remove_action( 'wp_nav_menu_items', 'wp_nav_menu_items' );
-}
