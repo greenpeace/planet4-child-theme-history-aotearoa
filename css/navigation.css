@@ -1,4 +1,7 @@
-.sidebar-navigation,
+.sidebar-navigation {
+  display: none;
+}
+
 ul.history-nav-links {
   display: none;
 }
@@ -11,7 +14,7 @@ ul.history-nav-links li a {
   font-weight: 400;
   color: white;
 }
-.donate-nav-item {
+.donate-nav-item a {
   color: black;
   font-weight: 700;
 }
