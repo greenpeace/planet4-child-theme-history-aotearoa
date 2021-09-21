@@ -5,7 +5,7 @@
 ul.history-nav-links {
   text-transform: uppercase;
 }
-.history-nav-links li .nav-link {
+ul.history-nav-links li a {
   font-weight: 400;
 }
 
