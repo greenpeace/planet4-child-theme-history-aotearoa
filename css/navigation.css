@@ -25,7 +25,7 @@ ul.history-nav-links {
     color: white;
   }
   ul.history-nav-links li.donate-nav-item a {
-    color: black;
+    color: black !important;
     font-weight: 700;
   }
 
