@@ -12,11 +12,11 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-history-aotearoa
 */
 
-@import 'css/variables.css';
-@import 'css/navigation.css';
-@import 'css/footer.css';
-@import 'css/ideapush.css';
-@import 'css/author.css';
+@import "css/variables.css";
+@import "css/navigation.css";
+@import "css/footer.css";
+@import "css/ideapush.css";
+@import "css/author.css";
 
 @media (min-width: 992px) {
   body {
@@ -32,6 +32,39 @@ div.page-header {
   padding-top: 104px;
 }
 
-h1, h2, h3, h4, h5, h6.page-template {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6.page-template {
   font-family: Roboto, sans-serif;
+}
+
+ul.history-nav-links {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  ul.history-nav-links {
+    width: 100%;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style: none;
+  }
+
+  ul.history-nav-links li {
+    line-height: 3em;
+    margin-top: 1.5em;
+  }
+  ul.history-nav-links li.menu-item a {
+    font-weight: 400;
+    color: white;
+  }
+  ul.history-nav-links li.donate-nav-item a {
+    color: black !important;
+    font-weight: 700;
+  }
 }

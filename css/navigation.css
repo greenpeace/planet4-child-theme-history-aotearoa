@@ -2,33 +2,7 @@
   display: none;
 }
 
-ul.history-nav-links {
-  display: none;
-}
-
 @media (min-width: 992px) {
-  ul.history-nav-links {
-    width: 100%;
-    margin-right: 250px;
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    list-style: none;
-  }
-
-  ul.history-nav-links li {
-    line-height: 3em;
-    margin-top: 1.5em;
-  }
-  ul.history-nav-links li.menu-item a {
-    font-weight: 400;
-    color: white;
-  }
-  ul.history-nav-links li.donate-nav-item a {
-    color: black !important;
-    font-weight: 700;
-  }
-
   .top-navigation {
     background: rgba(01, 34, 61, 0.6);
     height: 80px;
@@ -102,6 +76,6 @@ ul.history-nav-links {
 
   .top-nav-search-btn {
     color: var(--light-grey);
-    background-color: var(--white) !important;
+    background-color: var(--sidebar-blue) !important;
   }
 }
