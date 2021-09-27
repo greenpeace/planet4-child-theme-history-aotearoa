@@ -66,9 +66,21 @@ ul.history-nav-links {
   ul.history-nav-links li.menu-item a {
     font-weight: 400;
     color: white;
+    margin-top: 12px;
   }
   ul.history-nav-links li.donate-nav-item a {
     color: black !important;
     font-weight: 700;
+  }
+  .top-navigation .btn-donate {
+    margin-top: 17px;
+  }
+  button.top-nav-search-btn {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .top-navigation .btn-donate {
+    margin-top: 14px;
   }
 }
