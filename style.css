@@ -73,25 +73,34 @@ ul.history-nav-links {
     color: #448107;
     margin-top: 20px;
   }
-  ul.history-nav-links li.menu-item a:hover:after {
+
+  ul.history-nav-links li.menu-item a:hover {
+    border-bottom-color: transparent;
+  }
+  ul.history-nav-links li.menu-item a:after {
     position: absolute;
     bottom: -1px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 0;
+    width: 0%;
     content: ".";
     color: transparent;
-    background: #448107;
+    background: $gp-green;
     height: 4px;
     transition: all 0.5s;
   }
+
+  ul.history-nav-links li.menu-item a:hover:after {
+    width: 100%;
+  }
+
   ul.history-nav-links li.donate-nav-item a {
     color: black !important;
     font-weight: 700;
   }
   ul.history-nav-links li.donate-nav-item a:hover {
-    background: #54b4b3;
+    background: #aefffe;
   }
   .top-navigation .btn-donate {
     margin-top: 17px;
