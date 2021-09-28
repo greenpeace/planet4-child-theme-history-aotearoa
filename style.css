@@ -73,9 +73,25 @@ ul.history-nav-links {
     color: #448107;
     margin-top: 20px;
   }
+  ul.history-nav-links li.menu-item a:hover:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    content: ".";
+    color: transparent;
+    background: #448107;
+    height: 4px;
+    transition: all 0.5s;
+  }
   ul.history-nav-links li.donate-nav-item a {
     color: black !important;
     font-weight: 700;
+  }
+  ul.history-nav-links li.donate-nav-item a:hover {
+    background: #54b4b3;
   }
   .top-navigation .btn-donate {
     margin-top: 17px;
@@ -122,10 +138,11 @@ li.nav-item {
   text-decoration: underline;
 }
 
-@media (min-width: 992px) li.nav-item {
-  padding-bottom: 10px;
+@media (min-width: 992px) {
+  li.nav-item {
+    padding-bottom: 10px;
+  }
 }
-
 .btn-navbar-toggle {
   background-color: white;
   color: #66cc02;
