@@ -92,3 +92,83 @@ ul.history-nav-links {
     margin-top: 14px;
   }
 }
+
+nav#sidebar {
+  position: fixed;
+}
+
+.admin-bar nav#sidebar {
+  top: 30px;
+}
+
+.site-logo {
+  line-height: 3;
+}
+.sidebar-navigation {
+  background: rgba(251, 252, 253, 1);
+}
+
+.nav-link {
+  color: grey;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+li.nav-item {
+  padding-bottom: 6px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) li.nav-item {
+  padding-bottom: 10px;
+}
+
+.btn-navbar-toggle {
+  background-color: white;
+  color: #66cc02;
+}
+
+.navbar-dropdown {
+  background: #65cd26
+    url(https://history.greenpeace.org/aotearoa/wp-content/themes/planet4-master-theme/images/dropdown-gradient.svg)
+    no-repeat;
+}
+
+.has-drop-cap:first-letter {
+  font-size: 70px !important;
+}
+
+.is-style-sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 1px;
+}
+
+.wp-block-image figcaption {
+  max-width: 500px;
+  text-align: left;
+}
+
+.filter-sidebar {
+  display: none;
+}
+
+.col-lg-4 {
+  width: 1%;
+}
+
+.submenu-block.submenu-sidebar {
+  max-width: 280px;
+}
+
+.top-nav-search-btn {
+  background-color: var(--white) !important;
+}
+
+.nav-search-wrap .form-control,
+.nav-search-wrap .form-control:focus {
+  background-color: var(--white);
+  color: grey;
+}
