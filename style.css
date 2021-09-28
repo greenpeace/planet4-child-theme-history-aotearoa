@@ -86,7 +86,7 @@ ul.history-nav-links {
     width: 0%;
     content: ".";
     color: transparent;
-    background: $gp-green;
+    background: #448107;
     height: 4px;
     transition: all 0.5s;
   }
