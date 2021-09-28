@@ -73,10 +73,12 @@ ul.history-nav-links {
     display: inline-block;
     color: #448107;
     margin-top: 20px;
+    transform: translatex(10px);
   }
 
   ul.history-nav-links li.menu-item a:hover {
     border-bottom-color: transparent;
+    text-decoration: none;
   }
   ul.history-nav-links li.menu-item a:after {
     position: absolute;
