@@ -79,6 +79,7 @@ ul.history-nav-links {
   ul.history-nav-links li.menu-item a:hover {
     border-bottom-color: transparent;
     text-decoration: none;
+    font-weight: bold;
   }
   ul.history-nav-links li.menu-item a:after {
     position: absolute;
