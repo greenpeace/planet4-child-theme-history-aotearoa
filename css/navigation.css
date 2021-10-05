@@ -62,7 +62,7 @@
   }
 
   .nav-search-wrap {
-    position: absolute;
+    position: relative;
     right: var(--sidebar-width);
     margin-top: 18px;
   }
