@@ -24,11 +24,11 @@ Text Domain: planet4-child-theme-history-aotearoa
   }
 }
 
-div.page-template {
+.page-content {
   font-family: Lora, serif;
 }
 
-div.page-header {
+.page-header {
   padding-top: 104px;
 }
 
@@ -37,7 +37,7 @@ h2,
 h3,
 h4,
 h5,
-h6.page-template {
+h6.page-content {
   font-family: Roboto, sans-serif;
 }
 
