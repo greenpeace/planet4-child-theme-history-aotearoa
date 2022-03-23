@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Additional code for the child theme goes in here.
+ * Additional code for the child theme goes in here. March update
  */
 
 add_action( 'wp_enqueue_scripts', 'enqueue_child_styles', 99);
