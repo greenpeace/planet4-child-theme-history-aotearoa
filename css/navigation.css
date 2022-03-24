@@ -25,7 +25,7 @@
     bottom: 0;
     top: 0;
     background-color: var(--sidebar-blue);
-    color: var(--white);
+    /* color: var(--white); */
     padding: 10px 20px;
     z-index: 99;
     font-family: Roboto;
