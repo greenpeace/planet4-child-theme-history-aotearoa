@@ -1,8 +1,3 @@
-/* Override all navigation links in header black text */
-a.nav-link{
-    color: #000000 !important;
-}
-
 #header{
   background: white;
 }
@@ -20,7 +15,7 @@ margin-inline-start: 0;
 
 nav#nav-menu a.nav-link {
 display: inline-block;
-color: #000;
+color: #000 !important;
 padding-top: 26px;
 text-align: center;
 height: 100%;
