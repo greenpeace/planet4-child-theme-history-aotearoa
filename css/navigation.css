@@ -9,7 +9,7 @@ display: none;
 }
 
 a.nav-link {
-color: rgb(128, 128, 128);
+color: rgb(0, 0, 0) !important;
 }
 
 .site-logo{
