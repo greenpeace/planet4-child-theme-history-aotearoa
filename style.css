@@ -15,3 +15,15 @@ Text Domain: planet4-child-theme-history-aotearoa
 a.nav-link {
   color: black !important;
 }
+
+@media (min-width: 1200px) {
+    body.transparent-nav:not(.scrolled) .top-navigation #search_form button .icon, body.transparent-nav:not(.scrolled) .top-navigation .icon {
+        fill:black;
+    }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+    body.transparent-nav:not(.scrolled) .top-navigation #search_form #search_input, body.transparent-nav:not(.scrolled) .top-navigation #search_form #search_input::placeholder {
+        color: var(--grey-900); 
+    }
+}
